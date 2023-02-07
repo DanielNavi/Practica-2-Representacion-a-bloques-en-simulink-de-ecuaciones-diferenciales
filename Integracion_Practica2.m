@@ -1,4 +1,4 @@
-[t,x]=ode45(@Practica2,[0 10], [0 (35*pi)/180 0 0]);%Recibe la funcion, tiempo y condiciones inicaeles, las cuales son 4 porque mi esapcio de estados me dijo que eran 2
+[t,x]=ode45(@Practica2,[0 10], [0 (35*pi)/180 0 0]);
 figure(1)
 plot(t,x(:,1));
 grid on
